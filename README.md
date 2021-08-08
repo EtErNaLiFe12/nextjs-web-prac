@@ -1,5 +1,5 @@
-## _app.js는 전체 레이아웃 잡을때 사용
-## index.js는 home 이자 '/' 인 페이지
+- _app.js는 전체 레이아웃 잡을때 사용
+- index.js는 home 이자 '/' 인 페이지
 - pages folder에 생성되는 파일들은 각 라우팅 되는 페이지들
 - src/components 폴더에 있는 파일들은 모달 등 각종 기능을 하는 컴포넌트들로써 index.js에 삽입하여 사용 한다.
 - public 폴더에는 이미지파일들이나 폰트파일 등을 넣어놓고 index.js에 들어가는 css 용으로도 사용함.
