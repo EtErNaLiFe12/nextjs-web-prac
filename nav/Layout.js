@@ -9,13 +9,7 @@ export default function Layout({ children }) {
       </div>
 
       <div style={{ textAlign: "center"}}>{children}</div>
-      <div style={{ textAlign: "center"}}>{children}</div>
-      <div style={{ textAlign: "center"}}>{children}</div>
-      <div style={{ textAlign: "center"}}>{children}</div>
-      <div style={{ textAlign: "center"}}>{children}</div>
-      <div style={{ textAlign: "center"}}>{children}</div>
-      <div style={{ textAlign: "center"}}>{children}</div>
-      <div style={{ textAlign: "center"}}>{children}</div>
+
 
       <div className="bottom-container">
         <div className="info">
