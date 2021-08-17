@@ -1,0 +1,38 @@
+.active {
+  display: none;
+  position: fixed;
+  left: 400px;
+  background-color: #333;
+  width: 700px;
+  height: 900px;
+  transition: 1s;
+  margin-top: -50px;
+  /* transform: translateX(-500px); */
+}
+.active_1 {
+  position: fixed;
+  left: 400px;
+  background-color: #333;
+  width: 700px;
+  height: 900px;
+  transition: 1s;
+  margin-top: -50px;
+  /* transform: translateX(0); */
+  z-index: -1;
+}
+.btn_1 {
+  width: 100px;
+  height: 30px;
+  background-color: #fb5849;
+  border-style: none;
+}
+.no {
+  display: none;
+}
+.click {
+  display: block;
+  
+}
+.click li {
+  color: #fff;
+}
