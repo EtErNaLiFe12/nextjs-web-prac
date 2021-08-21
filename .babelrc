@@ -1,0 +1,41 @@
+// {
+//   "presets": ["@babel/env", "@babel/preset-react"],
+//   "plugins": [
+//     [
+//       "module-resolver",
+//       {
+//         "alias": {
+// 			    "@": "./src",
+//           "@src": "../../src",
+//           "images": "./public/images"
+//         }
+//       }
+//     ]
+//   ]
+// },
+
+{
+  "presets": ["next/babel", "@babel/env", "@babel/preset-react"],
+  "plugins": [
+    ["@babel/plugin-proposal-optional-chaining"],
+    [
+      "babel-plugin-root-import",
+      {
+        "paths": [
+          {
+            "rootPathSuffix": ".",
+            "rootPathPrefix": "~/"
+          },
+          {
+            "rootPathSuffix": "./src/components",
+            "rootPathPrefix": "@components/"
+          },
+          {
+            "rootPathSuffix": "./public/images",
+            "rootPathPrefix": "@images/"
+          }
+        ]
+      }
+    ]
+  ]
+}
