@@ -18,24 +18,24 @@
   "presets": ["next/babel", "@babel/env", "@babel/preset-react"],
   "plugins": [
     ["@babel/plugin-proposal-optional-chaining"],
-    [
-      "babel-plugin-root-import",
-      {
-        "paths": [
-          {
-            "rootPathSuffix": ".",
-            "rootPathPrefix": "~/"
-          },
-          {
-            "rootPathSuffix": "./src/components",
-            "rootPathPrefix": "@components/"
-          },
-          {
-            "rootPathSuffix": "./public/images",
-            "rootPathPrefix": "@images/"
-          }
-        ]
-      }
-    ]
+    // [
+    //   "babel-plugin-root-import",
+    //   {
+    //     "paths": [
+    //       {
+    //         "rootPathSuffix": ".",
+    //         "rootPathPrefix": "~/"
+    //       },
+    //       {
+    //         "rootPathSuffix": "./src/components",
+    //         "rootPathPrefix": "@components/"
+    //       },
+    //       {
+    //         "rootPathSuffix": "./public/images",
+    //         "rootPathPrefix": "@images/"
+    //       }
+    //     ]
+    //   }
+    // ]
   ]
 }
